@@ -39,3 +39,6 @@ could break something?
 Now that you have your workspace set up, what do you want to try using Git for?
 
    all my projects and writings lie stories etc
+
+
+   git config --global core.editor "'C:/Program Files/Sublime Text 3/sublime_text.exe' -n -w"
