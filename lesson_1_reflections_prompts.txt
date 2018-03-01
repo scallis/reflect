@@ -1,0 +1,41 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+   in windows fc command. for example:
+   fc old_file.txt new_file.txt
+
+   in unix diff command
+
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    i can see all previous versions o my files and other people's changes on these files. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    automatic saves can be confusing with small changes.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    git thinks documents can be related, others don't
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows all the changes on the file with a SAH id 
+    git diff shows differences with two versions two different SHA id 
+    +s shows added lines in green
+    -s shows removed lines in red
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    i can switch between the versions in order to find out where the problem is
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+   all my projects and writings lie stories etc
